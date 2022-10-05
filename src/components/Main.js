@@ -6,7 +6,6 @@ import { productList } from '../actions/productActions';
 function Main() {
   const dispatch = useDispatch();
   let data = useSelector((state) => state.productData);
-  console.warn("data in main component", data);
   const product = {
     name: 'i Phone',
     category: 'mobile',
